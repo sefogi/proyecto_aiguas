@@ -1,16 +1,16 @@
 import { useState } from 'react'
-import
+import { Home } from '../pages/Home'
 
-import './App.css'
+
 
 export const Layout =() =>{
   
 
   return (
     <>
-      <h1>hola aiguas</h1>
+      <Home/>
     </>
   )
 }
 
-export default App
+export default Layout
